@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+ }
+ .banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.5)),url(back.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .navbar-utama {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+ }
+ .navbar-utama .logo {
+    margin-left: 100px;
+    color: #fff;
+ }
+ .navbar-utama .navbar {
+    display: flex;
+    margin-right: 20px;
+ }
+ .navbar-utama .navbar li {
+    margin: 20px;
+}
+.navbar-utama .navbar a {
+    color: #fff;
+}
+
+.contect {
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+.contect h1 {
+    font-size: 5rem;
+}
+.contect p {
+    padding-top: 10px;
+}
+
+.contect .kotak {
+    margin-top: 50px;
+}
+.contect .kotak .color {
+    background-color: grey;
+    color: #fff;
+    height: 20px;
+    border-radius: 20px;
+}
